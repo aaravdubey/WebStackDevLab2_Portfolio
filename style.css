@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.home {
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+.carousel {
+  background-image: linear-gradient(to top right, #024d6a, #081b28);
+  color: #fff;
+}
+.px-7 { 
+  padding: 0 10rem;
+}
+
+.navbar {
+  background-color: #081b28;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="home d-flex flex-column">
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top px-7 py-4">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">aarav.dev</a>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo01">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="photo_gallery.html">Photo Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="skills.html">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactMe.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="carouselExampleAutoplaying" class="carousel slide flex-grow-1 px-7 d-flex align-items-center " data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-md-6 d-flex flex-column justify-content-center">
+              <p class="fs-1 fw-bold">Hi, I'm Aarav Dubey👋</p>
+              <p class="fs-4 text-info fw-bold">MERN Developer</p>
+              <p>A 20 year old Post Graduate student, pursuing MCA from Christ University Bangalore. Completed BCA course from
+                MITWPU Pune. Have a 3 month internship experience in MERN Stack Web Development.</p>
+            </div>
+
+            <div class="col-md-6">
+              <img src="Images/coding_illustration.svg" alt="">
+
+            </div>
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="Images/skills.svg" alt="">
+
+            </div>
+            
+            <div class="col-md-6 d-flex flex-column justify-content-center">
+              <p class="fs-1">Things I am good at...</p>
+              <button class="btn btn-info py-2">My Skills &rarr;</button>
+              <!-- <p class="fs-4">MERN Developer</p>
+              <p>A 20 year old Post Graduate student, pursuing MCA from Christ University Bangalore. Completed BCA course from
+                MITWPU Pune. Have a 3 month internship experience in MERN Stack Web Development.</p> -->
+            </div>
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="Images/projects.svg" alt="">
+
+            </div>
+            
+            <div class="col-md-6 d-flex flex-column justify-content-center">
+              <p class="fs-1">Things I have made so far...</p>
+              <button class="btn btn-info py-2">My Projects &rarr;</button>
+              <!-- <p class="fs-4">MERN Developer</p>
+              <p>A 20 year old Post Graduate student, pursuing MCA from Christ University Bangalore. Completed BCA course from
+                MITWPU Pune. Have a 3 month internship experience in MERN Stack Web Development.</p> -->
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button> -->
+    </div>
+  </div>
+</body>
+
+</html>
