@@ -1,12 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-.home {
-  height: 100vh;
+body {
+
   font-family: 'Poppins', sans-serif;
 }
-.carousel {
+.home {
+  height: 100vh;
+}
+.gradient-bg {
   background-image: linear-gradient(to top right, #024d6a, #081b28);
   color: #fff;
+}
+.px-6 { 
+  padding: 0 5rem;
 }
 .px-7 { 
   padding: 0 10rem;
@@ -14,4 +20,34 @@
 
 .navbar {
   background-color: #081b28;
+}
+.light-bg {
+  background-color: #EEF2F7!important;
+}
+
+/*Photo Gallery*/
+.headerDiv {
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.photo img {
+  width: 90%;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  height: auto;
+}
+
+/*Skills*/
+.skill-item img {
+  transition: all 0.4s;
+}
+.skill-item img:hover {
+  transform: scale(1.1);
+}
+
+/*Contact Me*/
+form button {
+  background-color: #081b28!important;
+}
+form button:hover {
+  background-color: #26495e!important;
 }

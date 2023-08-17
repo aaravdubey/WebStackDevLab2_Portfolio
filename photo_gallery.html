@@ -9,42 +9,70 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="photo_gallery.css">
+    <link rel="stylesheet" href="style.css">
     <title>Photo Gallery</title>
-    <style>
-        .photo img {
-            width: 100%;
-            height: auto;
-        }
-    </style>
 </head>
 
-<body>
-    <div class="container-fluid">
-        <h1 class="mt-4 mb-3">Photo Gallery</h1>
+<body class="light-bg">
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top px-7 py-4">
+        <a class="navbar-brand" href="home.html">aarav.dev</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo01">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="photo_gallery.html">Photo Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="skills.html">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contactMe.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- <div class="headerDiv px-5 py-3 mb-4 text-white gradient-bg">
+        <h1>Photo Gallery</h1>
+    </div> -->
+    <div class="container-fluid pt-4 px-5">
         <div class="d-flex flex-wrap align-items-center row-gap-3 ">
-            <div class="photo col-md-4 col-lg-4">
-                <img src="https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Image 1" class="img-fluid">
+            <div class="photo col-md-6 col-lg-4 text-center text-center ">
+                <img src="https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="Image 1" class="img-fluid">
             </div>
-            <div class="photo col-md-4 col-lg-4">
-                <img src="https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Image 2" class="img-fluid">
+            <div class="photo col-md-6 col-lg-4 text-center">
+                <img src="https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="Image 2" class="img-fluid">
             </div>
-            <div class="photo col-md-4 col-lg-4">
-                <img src="https://images.pexels.com/photos/1261427/pexels-photo-1261427.jpeg" alt="Image 2" class="img-fluid">
+            <div class="photo col-md-6 col-lg-4 text-center">
+                <img src="https://images.pexels.com/photos/1261427/pexels-photo-1261427.jpeg" alt="Image 2"
+                    class="img-fluid">
             </div>
-            <div class="photo col-md-4 col-lg-4">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjVTClEv7YdUx6aS44wlk7l_Ip3TD0mXR_ZA&usqp=CAU" alt="Image 2" class="img-fluid">
+            <div class="photo col-md-6 col-lg-4 text-center">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjVTClEv7YdUx6aS44wlk7l_Ip3TD0mXR_ZA&usqp=CAU"
+                    alt="Image 2" class="img-fluid">
             </div>
-            <div class="photo col-md-4 col-lg-4">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFPyBzDx18iAbANXTuy5v7J71sdV9R_7nSnw&usqp=CAU" alt="Image 2" class="img-fluid">
+            <div class="photo col-md-6 col-lg-4 text-center">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFPyBzDx18iAbANXTuy5v7J71sdV9R_7nSnw&usqp=CAU"
+                    alt="Image 2" class="img-fluid">
             </div>
-            <div class="photo col-md-4 col-lg-4">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTifEVbTPDYmXlpgyXAvoaeANl-Dkqw_4bqIQ&usqp=CAU" alt="Image 2" class="img-fluid">
+            <div class="photo col-md-6 col-lg-4 text-center">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTifEVbTPDYmXlpgyXAvoaeANl-Dkqw_4bqIQ&usqp=CAU"
+                    alt="Image 2" class="img-fluid">
             </div>
         </div>
 
 
     </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>
